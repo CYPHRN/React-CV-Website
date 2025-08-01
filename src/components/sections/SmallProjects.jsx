@@ -19,7 +19,7 @@ function SmallProjects() {
       <div className="flex flex-col items-center lg:flex-row text-sm md:text-base">
         <Card
           className="w-full lg:w-1/3"
-          title="SSMS Monitor"
+          title="Project 1"
           techBadges={[
             {
               name: "Powershell",
@@ -37,13 +37,13 @@ function SmallProjects() {
               svg: chartIcon,
             },
           ]}
-          description1="PowerShell scripts for SQL Server monitoring with data visualization"
-          description2=" Automated health checks and performance reporting for database systems"
+          description1="Description 1 Line 1"
+          description2="Description 1 Line 2"
           link="PROJECT 1 GITHUB LINK"
         />
         <Card
           className="w-full lg:w-1/3"
-          title="Azure BCP Tool"
+          title="Project 2"
           techBadges={[
             {
               name: "PowerShell",
@@ -61,14 +61,14 @@ function SmallProjects() {
               svg: migrationIcon,
             },
           ]}
-          description1="Automated Azure data migration and copying tool using PowerShell"
-          description2="Streamlines bulk copy operations between cloud and on-prem environments"
+          description1="Description 2 Line 1"
+          description2="Description 1 Line 2"
           link="PROJECT 2 GITHUB LINK"
         />
 
         <Card
           className="w-full lg:w-1/3"
-          title="React Notes"
+          title="Project 3"
           techBadges={[
             {
               name: "JavaScript",
@@ -86,8 +86,8 @@ function SmallProjects() {
               svg: cssIcon,
             },
           ]}
-          description1="React-based note-taking application featuring full CRUD functionality"
-          description2=" Implements component-based architecture with custom styling and enhanced UX"
+          description1="Description 3 Line 1"
+          description2=" Description 3 Line 2"
           link="PROJECT 3 GITHUB LINK"
         />
       </div>
